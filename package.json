@@ -1,0 +1,21 @@
+{
+  "name": "video-generator",
+  "private": true,
+  "workspaces": [
+    "demo-v",
+    "my-video"
+  ],
+  "scripts": {
+    "start:demo": "cd demo-v && npm start",
+    "start:my-video": "cd my-video && npm start",
+    "build:demo": "cd demo-v && npm run build",
+    "build:my-video": "cd my-video && npm run build",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+} 
