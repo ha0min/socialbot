@@ -1,6 +1,8 @@
-# News Text-to-Speech Generator
+# News Text-to-Speech Discord Bot
 
-A system that automatically generates news videos with text-to-speech narration using Remotion and cloud services.
+A discord bot that automatically generates news videos with text-to-speech narration using Remotion and cloud services.
+
+https://github.com/user-attachments/assets/338ca59c-379b-45be-a809-8761e85857c7
 
 
 This project fetches news articles, generates concise summaries using GPT-3.5, and converts them to speech using Google Cloud Text-to-Speech. The output includes both text summaries and audio files stored in Google Cloud Storage.
